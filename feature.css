@@ -1,0 +1,37 @@
+#footerRP{
+    display: none;
+}
+#icon-link:hover{
+    background-color: lightgray;
+}
+#navHover:hover{
+    text-decoration: underline;
+}
+.arrowDownIcon{
+    transition: .5s ease;
+}
+
+.arrowDownIcon.active{
+    transform: rotate(180deg);
+    
+}
+
+
+
+@media(max-width:991px){
+    .container-right{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        margin-top: 40px;
+        border-top: 1px solid black;
+        padding: 20px 0 20px 0;
+    }
+
+    #footerRP{
+        display: block;
+    }
+
+    #footerNone{
+        display: none;
+    }
+}
